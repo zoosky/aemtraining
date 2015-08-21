@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-19T10:15:27.021+02:00"
+        cq:lastModified="{Date}2015-08-20T16:08:25.293+02:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/training/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="Products"
-        sling:resourceType="training/components/page-content"/>
+        sling:resourceType="training/components/page-content">
+        <title
+            jcr:lastModified="{Date}2015-08-20T16:08:25.291+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="First Products ggdfsdff"
+            sling:resourceType="training/components/training-title"
+            type="h1"/>
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <image
+                jcr:created="{Date}2015-08-20T15:04:31.353+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-20T15:04:48.697+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileReference="/content/dam/assets-from-sample-package/Paris-Graffiti-Cat-140821.jpg"
+                imageRotate="0"
+                width="300"/>
+        </content>
+    </jcr:content>
     <triangle/>
     <circle/>
     <square/>

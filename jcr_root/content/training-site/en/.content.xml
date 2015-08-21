@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-19T10:14:10.763+02:00"
+        cq:lastModified="{Date}2015-08-19T16:58:58.689+02:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/training/templates/page-content"
         jcr:primaryType="cq:PageContent"
         jcr:title="English"
-        sling:resourceType="training/components/page-content"/>
+        sling:resourceType="training/components/page-content">
+        <title
+            jcr:lastModified="{Date}2015-08-19T16:58:58.687+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="training/components/training-title"
+            type="h1"/>
+    </jcr:content>
     <company/>
     <products/>
     <services/>
+    <toolbar/>
+    <over-30/>
+    <under-30/>
 </jcr:root>
